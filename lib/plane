@@ -1,0 +1,192 @@
+📅 Flutter + Firebase + API Roadmap
+🗓️ Week 1: Foundation Polish
+
+🔹 Repeat Flutter core widgets (Row, Column, ListView, ListView.builder, Stack, Expanded, SizedBox).
+
+🔹 Practice navigation (push, pushReplacement, pop).
+
+🔹 TextField + Controller handling (input lene ka practice).
+
+🔹 Banaye:
+
+Login + Signup + Home flow (dummy data se).
+
+🗓️ Week 2: State Management (Riverpod Focus)
+
+🔹 Provider, StateProvider, FutureProvider, StateNotifier ka proper practice.
+
+🔹 Ek counter app bna jo Riverpod se chale.
+
+🔹 Ek API se data fetch karke Riverpod ke through list dikhaye.
+
+🗓️ Week 3: Firebase Deep Dive
+
+🔹 Firebase Auth → Login, Signup, Logout (jo tu already bana chuka hai, bas polish karna).
+
+🔹 Firestore → Add, Update, Delete, Read.
+
+🔹 Har CRUD operation ka alag screen bana.
+
+🔹 Practice UID use karke data ko user-specific save karna.
+
+🗓️ Week 4: API Integration (Laravel ya REST APIs)
+
+🔹 http package use karke API call karna.
+
+🔹 GET, POST, PUT, DELETE requests implement karna.
+
+🔹 Riverpod ke sath API results show karna.
+
+🔹 Ek mini project bna:
+
+"Users List App" jo API se users laata hai, add/edit/delete kar sakta hai.
+
+🗓️ Week 5: Offline & Local Storage
+
+🔹 shared_preferences se token/local data save karna.
+
+🔹 hive se offline list store karna.
+
+🔹 Ek offline to-do app bna.
+
+🗓️ Week 6: Advanced UI/UX
+
+🔹 Animations (Hero, AnimatedContainer, Page transitions).
+
+🔹 BottomNavigationBar + multi-page apps.
+
+🔹 Responsive design (tablet aur mobile me alag layout).
+
+🔹 Ek stylish profile screen bna with update feature.
+
+🗓️ Week 7: Clean Architecture
+
+🔹 Code ko layers me tod:
+
+UI → Riverpod Providers → Repository → API/Firebase.
+
+🔹 MVVM (Model-View-ViewModel) ya Clean Architecture ka basic samajh.
+
+🔹 Apna existing CRUD app ko clean structure me refactor kar.
+
+🗓️ Week 8: Final Project 🚀
+
+Ek production-level app bna (The Local Rent jaisa ya apna idea).
+
+Login + Signup (Firebase Auth)
+
+Listings (Firestore CRUD + API integration)
+
+Profile update page
+
+Notifications (API + Riverpod)
+
+Offline storage (shared_preferences for token)
+
+Professional UI with animations
+
+🏁 End Goal (2–3 months me)
+
+Tu ek full-stack mobile app developer ban jayega jo:
+✔️ Firebase Auth + Firestore handle kar sakta hai
+✔️ APIs integrate kar sakta hai (Laravel/REST)
+✔️ State management (Riverpod) samajhta hai
+✔️ Professional UI/UX bana sakta hai
+✔️ App ko Play Store pe publish kar sakta hai
+
+👉 Reeb bhai, ye roadmap agar tu follow kare, toh tu sirf copy-paste developer nahi, balki real app builder ban jayega.
+
+
+
+
+
+
+
+
+
+
+📅 Daily Flutter + Firebase Study Plan
+🗓️ Week 1: Flutter Core Polish
+
+Day 1 → Scaffold, AppBar, Text, Icon, Button banake ek simple page bna.
+Day 2 → Column + Row + SizedBox + Container ka practice kar.
+Day 3 → ListView aur ListView.builder se dummy list dikhana seekh.
+Day 4 → Stack + Positioned widgets ka use kar.
+Day 5 → Navigator push/pop ka practice kar ke 2 screen navigate kar.
+Day 6 → Login page UI bna (TextField + Controller).
+Day 7 → Mini project: Login → Home navigation flow (dummy check).
+
+🗓️ Week 2: Riverpod Basics
+
+Day 8 → Riverpod install karke counter app bna.
+Day 9 → StateProvider se switch (true/false) ka logic bna.
+Day 10 → FutureProvider use karke API (https://jsonplaceholder.typicode.com/posts
+) fetch kar.
+Day 11 → ListView me API ka data Riverpod se show kar.
+Day 12 → Riverpod se ek simple form (input field + provider) bna.
+Day 13 → Async loading/error states handle karna seekh.
+Day 14 → Mini project: Todo app with Riverpod (add/delete tasks).
+
+🗓️ Week 3: Firebase Auth
+
+Day 15 → Firebase setup project me kar.
+Day 16 → Signup screen bna (Auth createUser).
+Day 17 → Login screen bna (Auth signIn).
+Day 18 → Logout logic add kar (signOut).
+Day 19 → Current user ka email show kar (FirebaseAuth.instance.currentUser).
+Day 20 → Error handling add kar (wrong password etc).
+Day 21 → Mini project: Login/Signup + HomePage flow Firebase Auth ke sath.
+
+🗓️ Week 4: Firestore CRUD
+
+Day 22 → Firestore setup kar.
+Day 23 → Add data to Firestore (collection add).
+Day 24 → Read data using StreamBuilder.
+Day 25 → Update document logic bna.
+Day 26 → Delete document logic bna.
+Day 27 → UID ke sath user-specific data save karna seekh.
+Day 28 → Mini project: Notes app (Add, List, Edit, Delete).
+
+🗓️ Week 5: REST API Integration
+
+Day 29 → http package se GET request kar.
+Day 30 → POST request (form se data send karna).
+Day 31 → PUT request (update data).
+Day 32 → DELETE request (delete record).
+Day 33 → API + Riverpod connect kar (provider handle kare API ko).
+Day 34 → Error handling (try/catch).
+Day 35 → Mini project: Users list app (CRUD with API).
+
+🗓️ Week 6: Offline Storage
+
+Day 36 → shared_preferences se token save/read kar.
+Day 37 → shared_preferences se theme toggle save kar.
+Day 38 → Hive install karo aur ek local DB bna.
+Day 39 → Hive me data insert + read kar.
+Day 40 → Hive me update + delete kar.
+Day 41 → Hive + Riverpod ko connect kar.
+Day 42 → Mini project: Offline todo app.
+
+🗓️ Week 7: Advanced UI/UX
+
+Day 43 → Hero animation try kar (image transition).
+Day 44 → AnimatedContainer ka practice kar.
+Day 45 → BottomNavigationBar bna (5 tabs).
+Day 46 → TabBarView ka use kar.
+Day 47 → Responsive design (MediaQuery, LayoutBuilder).
+Day 48 → Professional profile screen design kar.
+Day 49 → Mini project: Stylish Profile + Dashboard app.
+
+🗓️ Week 8: Clean Architecture + Final Project 🚀
+
+Day 50 → Project structure split kar (UI, Providers, Repository, API).
+Day 51 → Riverpod Notifier + Repository pattern apply kar.
+Day 52 → Firebase Auth + Firestore + API integrate kar.
+Day 53 → Notifications page bna (API + Riverpod).
+Day 54 → Listings CRUD bna (Firestore + API).
+Day 55 → Profile Update + Offline token storage bna.
+Day 56 → App polish kar (UI/UX + Animations).
+Day 57 → Final project test kar.
+Day 58 → APK build kar.
+Day 59 → Play Store upload ka process samajh.
+Day 60 → 🎉 Congratulations → Tu full Flutter + Firebase + API developer ban gya!
